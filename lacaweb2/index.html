@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#b08ce0"> <!-- Color interface -->
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/function.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Gooogle fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,600;1,200;1,300&family=Mulish:ital,wght@0,200;0,300;1,200;1,300;1,600&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0cebf067a0.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="img/descarga.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <title>Lacane Tienda Virtual</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <a href = "index.html"><img class = "logo" src = "img/marca/lacane_hd.jpg" alt="logo"></a>
+            <div class="menu-btn">
+                <div class="menu-btn_burguer"></div>
+            </div>
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a class="nav-menu-link" href="index.html">Inicio</a></li>
+            <li class="nav-menu-item"><a class="nav-menu-link" href="ingresos.html">Ingresos</a></li>
+            <li class="nav-menu-item"><a class="nav-menu-link" href="products.html">Productos</a></li>
+            <li class="nav-menu-item"><a class="nav-menu-link" href="informacion.html">Información</a></li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="portada-index">
+            <img class="img-portada" id="img-portada-desktop" src="img/marca/LC_Portada.jpg" alt="portada con foto de tazas">
+            <div class="div-portada">
+                <h1 id="frase-portada">Somos Lacané!</h1>
+                <p id="presentacion-portada">Todo eso que necesitas para tu hogar<br> y para tu vida diaria lo encontras acá. <br>
+                    Con la mejor calidad,<br> variedad de colores<br> y diseños,<br> y el mejor precio del mercado. <br>
+                </p> 
+                <a id="boton-portada">Descubrinos</a>
+            </div>
+        </section>
+
+        <section id="Ultimos_Ingresos" class="secciones-principales seccion-producto">
+            <div id="ancla-tazas" class="ancla-productos"></div>
+            <div class="cat-productos contenedor">
+                <h2 class="subtitulos nombre-cat-productos">Últimos ingresos</h2>
+                <div class="contenedor-principal">
+                    <button role="button" id="flecha-izquierda-tazas" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+                    <div class="contenedor-carousel contenedor-carousel-tazas">
+                        <div class="carousel" id="carousel-ultimos_ingresos"></div>
+                    </div>
+                    <button role="button" id="flecha-derecha-tazas" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+                </div>
+                <div class="indicadores" id="indicadores-tazas"></div>
+            </div>
+        </section>
+
+ 
+    </main>
+
+    <footer>
+        <img class="logo-footer" src="img/marca/Marca_footer.jpg" alt="logo-redondo">
+        <nav class="footer-menu">
+            <ul>
+                <li><a class="footer-menu-link" href="index.html">Inicio</a></li>
+                <li><a class="footer-menu-link" href="products.html">Productos</a></li> 
+                <li><a class="footer-menu-link " href="informacion.html">Información</a></li>
+                <li><a class="footer-menu-link " href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <div class="footer-social-media">
+            <a href="https://www.instagram.com/lacane.caballito/"><i id="instagram" class="fab fa-instagram "></i></a>
+            <a href="https://es-la.facebook.com/lacane.objetos/"><i id="facebook" class="fab fa-facebook "></i></a>
+            <a href="https://wa.me/5491155555555"><i id="whatsapp" class="fab fa-whatsapp "></i></a>
+        </div>
+        
+    </footer>
+
+    <script src="js/main.js "></script>
+    <script src="js/index.js "></script>
+    <script src="js/funciones.js "></script>
+
+</body>
+
+</html>
+        <!-- <nav id="idnav" class="nav">
+        </nav>
+
+        <div class="item saludo">
+            <h1>Somos Lacané!</h1>
+            <p>Todo eso que necesitas para tu hogar y para tu vida diaria lo encontras acá. <br>
+                Con la mejor calidad, variedad de colores y diseños, y el mejor precio del mercado. <br>
+                Hacé click <span><a href="informacion.html">aquí</a></span> y te contamos como relizar tu pedido.
+
+            </p>
+        </div>
+
+        <div class="item slide">
+            <h1>Últimos ingresos</h1>
+            <div class="carrousel"></div>
+        </div>
+
+        <div class="item especial">
+            <h1>Especial Día de la Madre</h1>
+        </div>
+        
+        <div class="item sorteo">
+            <h1 class="animate__animated animate__pulse animate__infinite	infinite">Nuevo Sorteo!</h1>
+            <p>Buscanos en Instagram y enterate de como participar.</p>
+        </div>
+
+        <div id="idfooter" class="item footer"></div>
+    <script src="js/script.js"></script> -->
