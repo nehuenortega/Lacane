@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/descarga.ico">
-    <link rel="stylesheet" href="css/infoestilo.css">
+    <link rel="stylesheet" href="infoestilo.css">
     <title>Toda la Info</title>
 </head>
-
 <body>
     <section class="container">
         <div id="idheader" class="item header">
-        </div>
+                    </div>
         <div id="idnav" class="nav">
-
+            
         </div>
         <div class="item pedido">
-            <h1>¿Cómo puedo hacer un pedido?</h1>
+<h1>¿Cómo puedo hacer un pedido?</h1>
         </div>
         <div class="item pagos">
             <h1>Medios de Pago</h1>
@@ -31,20 +29,67 @@
         </div>
         <div class="item envios">
             <h1>Entrega y envío de pedidos</h1>
-            <p>Los productos pueden retirarse personalmente en el barrio de Caballito (zona Plaza Irlanda), previa
-                coordinacion de día y horario.</p>
-            <p>Los envíos a domicilio se realizan a partir de las 48hs de confirmado el pedido, previa coordinacion de
-                día y horario.</p>
-            <p>El costo para tu barrio lo podes consultar en la siguiente tabla:
+            <p>Los productos pueden retirarse personalmente en el barrio de Caballito (zona Plaza Irlanda), previa coordinacion de día y horario.</p>
+                <p>Los envíos a domicilio se realizan a partir de las 48hs de confirmado el pedido, previa coordinacion de día y horario.</p>
+                <p>El costo para tu barrio lo podes consultar en la siguiente tabla:
             </p>
-
+            <table>
+                <tr>
+                  <th>BARRIO</th>
+                  <th>PRECIO</th>
+                </tr>
+                <tr>
+                  <td>Caballito</td>
+                  <td>Sin Cargo</td>
+                </tr>
+                <tr>
+                    <td>Villa Crespo - Almagro - Pqe. Chacabuco<br>Boedo - Flores - Paternal<br>Chacarita - Villa Gral. Mitre</td>
+                    <td>$250</td>
+                  </tr>
+                  <tr>
+                    <td>Balvanera -San Cristobal - Pqe. Patricios<br>Pompeya - Soldati - Pqe. Avellaneda<br>Floresta - V. Sarfield - Villa Sta. Rita<br>Villa del Parque - Agronomía - Pqe. Chas<br>Villa Ortuzar - Colegiales - Palermo - Recoleta</td>
+                    <td>$300 / $350</td>
+                  </tr>
+                  <tr>
+                    <td>Retiro - San Nicolás - Montserrat<br>Puerto Madero - San Telmo - Constitución<br>La Boca - Barracas - Nuñez - Belgrano<br>Villa Urquiza - Villa Pueyredón - Devoto - Liniers<br>Mataderos - Villa Luro - Lugano - Montecastro
+                    </td>
+                    <td>$400 / $450</td>
+                  </tr>
+            </table>
         </div>
 
+        <div id="formulario" class="item contacto">
+            <h1>Tenés alguna duda? Contactanos:</h1>
+            <form action="">
+                <fieldset>
+                    <legend>Formulario de contacto</legend><br>
+                <label for="Nombre">Nombre:</label><br>
+                <input type="text"><br>
+                <label for="Mail">Correo electronico:</label><br>
+                <input type="email"><br>
+                <label for="Telefono">Telefono (Opcional):</label><br>
+                <input type="tel"><br>
+                <p>¿Cómo nos conociste?</p>
+                <input list="browsers" name="conociste">
+                <datalist id="browsers">
+                <option value="Instagram">
+                <option value="Facebook">
+                <option value="Recomendación">
+                <option value="Publicidad">
+                </datalist><br>
+                <label for="text">Escriba su consulta aquí:</label><br>
+                <textarea name="message" rows="10" cols="30">
+                </textarea><br>
+                <button type="button" onclick="alert('Su consulta fue enviada. Muchas gracias.')">Enviar</button>
 
+            </fieldset>
+              </form>
+        </div>
 
+        
+       
         <div id="idfooter" class="item footer"></div>
 
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
