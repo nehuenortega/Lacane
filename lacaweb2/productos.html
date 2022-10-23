@@ -1,78 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="productos.css">
-    <link rel="stylesheet" href="https://www.flaticon.es">
-    <link rel="icon" href="img/descarga.ico">
+
+    <meta name="theme-color" content="#b08ce0"> <!-- Color interface -->
+
+    <link rel="stylesheet" href="css/productos.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/function.css">
+
+    <link rel="stylesheet" href="productos.css"> <!-- A revisar -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Gooogle fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,600;1,200;1,300&family=Mulish:ital,wght@0,200;0,300;1,200;1,300;1,600&family=Titillium+Web:ital,wght@0,200;0,300;0,600;1,200;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0cebf067a0.js" crossorigin="anonymous"></script>
+
+    <link rel="icon" href="img/descarga.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <title>productos</title>
+
+    <title>Lacane Tienda Virtual</title>
     
 </head>
 <body>
-    <section class="contproductos">
-        <header id="idheader" class="item header">
-        </header>
-        <nav id="idnav" class="item nav">
+    <header>
+        <nav class="nav-bar">
+            <a href = "index.html"><img class = "logo" src = "img/marca/lacane_hd.jpg" alt="logo"></a>
+            <div class="menu-btn">
+                <div class="menu-btn_burguer"></div>
+            </div>
+        <ul class="nav-menu">
+            <li class="nav-menu-item"><a class="nav-menu-link" href="index.html">Inicio</a></li>
+            <li class="nav-menu-item"><a class="nav-menu-link" href="ingresos.html">Ingresos</a></li>
+            <li class="nav-menu-item"><a class="nav-menu-link" href="productos.html">Productos</a></li>
+            <li class="nav-menu-item"><a class="nav-menu-link" href="informacion.html">Información</a></li>
+        </ul>
         </nav>
+    </header>
+    <h1 class="subtitulos" id="titulo-pagina-productos">
+        Descubre nuestros productos
+    </h1>
 
+    <section class="contproductos">
         <div class="item categoria1">
             <h1 class="animate__animated animate__pulse animate__infinite	infinite">¡Todo para el Mate!</h1>
         </div>
         
         <div class="item scroll1">
-            <div class="scroller">
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate blanco_460x0.png" alt="">
+            <div id="ancla-tazas" class="ancla-productos"></div>
+            <div class="cat-productos contenedor">
+                <div class="contenedor-principal">
+                    <button role="button" id="flecha-izquierda-tazas" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+                    <div class="contenedor-carousel contenedor-carousel-tazas">
+                        <div class="carousel" id="carousel-ultimos_ingresos"></div>
+                    </div>
+                    <button role="button" id="flecha-derecha-tazas" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
                 </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate salmon_460x0.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate turquesa_460x0.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet gris + mate mimate.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet naranja + mate mimate.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet negro + mate mimate.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet rojo + mate mimate.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate blanco_460x0.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate blanco_460x0.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate blanco_460x0.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate blanco_460x0.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate blanco_460x0.png" alt="">
-                </div>
-                <div class="scroller-item">
-                    <img src="img/duet eco mas mate blanco_460x0.png" alt="">
-                </div>
+                <div class="indicadores" id="indicadores-tazas"></div>
             </div>
         </div>
-        <div class="item categoria2"></div>
-        <div class="item scroll2"></div>
-        <div class="item categoria3"></div>
-        <div class="item scroll3"></div>
 
+        <div class="item categoria2">
+        </div>
+        <div class="item scroll2">
+            
+        </div>
+    
+        <div class="item categoria3">
+            <h1 class="animate__animated animate__pulse animate__infinite	infinite">¡Todo para la cocina!</h1>
+        </div>
+        <div class="item scroll3">
+            <div id="ancla-tazas" class="ancla-productos"></div>
+            <div class="cat-productos contenedor">
+                <div class="contenedor-principal">
+                    <button role="button" id="flecha-izquierda-tazas" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+                    <div class="contenedor-carousel contenedor-carousel-tazas">
+                        <div class="carousel" id="carousel-ultimos_ingresos"></div>
+                    </div>
+                    <button role="button" id="flecha-derecha-tazas" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+                </div>
+                <div class="indicadores" id="indicadores-tazas"></div>
+            </div>
+        </div>
 
         <div id="idfooter" class="item footer"></div>
     </section>
 
-    <script src="script.js"></script>    
+    <script src="js/funciones.js "></script> 
 </body>
