@@ -99,6 +99,12 @@ function createCarouselByCategory(selectorCarousel, cantFotos, category, classna
 
 
 /* Creacion carouseles por categoria de producto */
-/* Tazas */
 
+/* Ultimos Ingresos */
 const CREATE_CAROUSEL_ULTIMOS_ING = createCarouselByCategory('carousel-ultimos_ingresos', 6, 'Ultimos_Ingresos', 'producto-tazas', 'foto taza', '.contenedor-carousel-tazas', 'flecha-izquierda-tazas', 'flecha-derecha-tazas', '#indicadores-tazas', '.producto-tazas');
+
+/* Todo para el Mate */
+const CREATE_CAROUSEL_TD_MATE = createCarouselByCategory('carousel-TD_Mate', 6, 'TD_Mate', 'producto-mates', 'foto mate', '.contenedor-carousel-mates', 'flecha-izquierda-mates', 'flecha-derecha-mates', '#indicadores-mates', '.producto-mates');
+
+/* Todo para la Cocina */
+const CREATE_CAROUSEL_TD_COCINA = createCarouselByCategory('carousel-cocina', 6, 'Cocina', 'producto-cocina', 'foto cocina', '.contenedor-carousel-cocina', 'flecha-izquierda-cocina', 'flecha-derecha-cocina', '#indicadores-cocina', '.producto-cocina');
