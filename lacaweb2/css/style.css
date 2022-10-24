@@ -12,11 +12,11 @@
 }
 
 ::-webkit-scrollbar-track {
-    background: #f0e6f6;
+    background: #e6f6e7;
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #b08ce077;
+    background: #87ac67ab;
     border-radius: 50px;
 }
 
@@ -29,14 +29,14 @@ body {
     font-family: 'Karla', 'Mulish', 'Titillium Web', sans-serif; /*https://fonts.google.com/?query=titillium+web*/
     font-size: 1.6rem;
     padding-top: 8rem;
-    background-color: #e5e5e5;
+    background-color: #2a532077;
 }
 
 .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #fdfdfe;
+    background-color: #fdfefd;
     height: 8rem;
     position: fixed;
     width: 100%;
@@ -73,7 +73,7 @@ body {
 }
 
 .nav-menu-link:hover {
-    background: linear-gradient(to right, #fae0e077, #b08ce077);
+    background: linear-gradient(to right, #fae0e077, #5dbd4a77);
     transition: .5s;
 }
 
