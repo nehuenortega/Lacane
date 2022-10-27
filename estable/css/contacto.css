@@ -1,0 +1,159 @@
+@media only screen and (max-width: 600px) {
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      
+    }
+
+    .nav-bar {
+       align-self: auto;
+    }
+
+    .nav-menu-link {
+        text-decoration: none;
+        color: #1C2226;
+        padding: 0.8rem 1.2rem;
+    }
+    
+    .nav-menu-link:hover {
+        background: #5B7349;
+        transition: .5s;
+    }
+
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 20px;
+    }
+
+    .topnav.responsive {
+        margin-top: 60px;
+        background-color:#5B7349;
+        height: auto;
+        
+    }
+
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+
+     
+   .nav-menu-link {
+    text-decoration: none;
+    color: #1C2226;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5rem;
+}
+
+   .nav-menu-link:hover {
+    background:  #F2F2F2;
+
+    transition: .5s;
+}
+}
+
+.topnav .icon {
+    display: none;
+    color: #18261E;
+  }
+
+
+
+
+
+#titulo-contacto {
+    text-align: center;
+}
+
+#datos-adicionales-contacto {
+    font-size: 1.8rem;
+    display: flex;
+    width: 90%;
+    margin: 2rem auto;
+    justify-content: space-around;
+}
+
+.datos-contacto-clasicos,
+.datos-contacto-redes {
+    max-width: 50%;
+}
+
+#datos-adicionales-contacto .datos-contacto-clasicos div,
+#datos-adicionales-contacto .datos-contacto-redes div {
+    display: flex;
+    align-items: center;
+}
+
+#datos-adicionales-contacto .datos-contacto-clasicos div p,
+#datos-adicionales-contacto .datos-contacto-redes div p {
+    margin: 0;
+}
+
+.icono-contacto {
+    margin-right: 1rem;
+}
+
+#contenedor-secciones-contacto {
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: 3rem auto;
+    align-items: center;
+}
+
+#contenedor-secciones-contacto section {
+    max-width: 50%;
+}
+
+#formulario-contacto label {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#formulario-contacto input,
+#formulario-contacto textarea,
+#formulario-contacto .btn {
+    font-size: 1.6rem;
+}
+
+
+/* MEDIAQUERY PARA RESPONSIVE */
+
+@media (max-width: 768px) {
+    #datos-adicionales-contacto {
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .datos-contacto-clasicos,
+    .datos-contacto-redes {
+        margin-bottom: 2rem;
+        max-width: none;
+    }
+    #contenedor-secciones-contacto {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #contenedor-secciones-contacto section {
+        max-width: none;
+    }
+}
+
+@media (max-width: 576px) {
+    #datos-adicionales-contacto {
+        font-size: 1.5rem;
+    }
+    #mapa-google {
+        max-width: 100%;
+    }
+}
