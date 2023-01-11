@@ -2,8 +2,10 @@
 ## TPO Desarrollo Web en HTML, CSS Y JavaScript.
 
 **Profesor Lic. Ramiro Escalante Leiva**
+
 **Integrantes:**
 
+- Cristian Nehuen Apablaza Ortega
 - Martin Libonati
 - Osvaldo Meijide
 
